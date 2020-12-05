@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "ava": "^3.13.0",
+    "ava-patterns": "^2.4.1",
+    "esbuild": "^0.8.16",
+    "esinstall": "^0.3.7",
+    "passing-notes": "^6.3.0",
+    "passing-notes-static": "^1.1.2",
+    "puppet-strings": "^4.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-three-fiber": "^5.3.4",
+    "three": "^0.123.0"
+  },
+  "ava": {
+    "verbose": true,
+    "concurrency": 1,
+    "timeout": "5m"
+  }
+}
